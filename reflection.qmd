@@ -1,0 +1,26 @@
+---
+title: "Reflection on the use of GenAI"
+---
+![](images/genai.png)
+
+## What is the GenAI tool I have used? Why did I choose it?
+
+The GenAI tool I have used is ChatGPT, developed by OpenAI. I chose it because of my familiarity with the software and AI. I have a decent understanding in how helpful the tool is and what is lacking of. 
+
+## How did the GenAI tool help me in completing the assessment?
+
+I had issues with the Github commit and push as I was not familiar with the interface here and did not connect my github to the terminal properly. I used ChatGPT to help me with the commands needed to connect my github to the terminal and push my code successfully.
+
+## What do I think are challenging about the tool?
+
+In terms of the overall usability, ChatGPT is by far the most unreliable when it comes to calculating long mathematical equations as compared to coding.\
+However, in terms of this module, I believe that the challenge is showing the errors and issues with the interface, as I am still learning about the RStudio interface, without the ChatGPT pro (I am not able to send as many pictures as I would like)
+
+## How do I think GenAI tool assis me for my future study or work?
+
+I believe that GenAI tools will help in the efficiency in work and studies instead of taking over my job as a student or worker. Ultimately, I still have to put in effort in understanding my tasks, what I am stuck with, and fact check the information provided by ChatGPT.\
+\
+As the world evolves, I believe we have to evolve as well and adapt to the new technology. Learning how to use GenAI tools effectively will be a great skill to have in the future.\
+\
+I have linked an article on the GenAI impact on humans [here](https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/articles/generative-ai-and-the-future-of-work.html), where the article by Deloitte. states that *"Despite all the hype, it's not meant to replace humans, but to better unlock human potential"*, which I agree with.
+

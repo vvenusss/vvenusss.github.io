@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>temp_website</title>
+<title>About – temp_website</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -96,11 +96,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link active" href="./about.html" aria-current="page"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -118,7 +118,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#venus-introduction" id="toc-venus-introduction" class="nav-link active" data-scroll-target="#venus-introduction">Venus Introduction</a></li>
+  <li><a href="#automating-bookkeeping-with-ai-and-n8n" id="toc-automating-bookkeeping-with-ai-and-n8n" class="nav-link active" data-scroll-target="#automating-bookkeeping-with-ai-and-n8n">Automating Bookkeeping with AI and n8n</a>
+  <ul class="collapse">
+  <li><a href="#features" id="toc-features" class="nav-link" data-scroll-target="#features">Features:</a></li>
+  <li><a href="#what-it-solves" id="toc-what-it-solves" class="nav-link" data-scroll-target="#what-it-solves">What It Solves:</a></li>
+  <li><a href="#media" id="toc-media" class="nav-link" data-scroll-target="#media">Media</a></li>
+  </ul></li>
   </ul>
 </nav>
 </nav>
@@ -131,7 +136,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">temp_website</h1>
+<h1 class="title">About</h1>
 </div>
 
 
@@ -148,24 +153,50 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="venus-introduction" class="level1">
-<h1>Venus Introduction</h1>
-<div style="float:left; position: relative; top: 0px">
-<p><img src="images/pic.jpeg" style="margin-right: 10px; align: left" height="100"></p>
-</div>
-<p><strong>“The future of finance isn’t just built in banks but through through innovation.”</strong><br>
+<section id="automating-bookkeeping-with-ai-and-n8n" class="level1">
+<h1>Automating Bookkeeping with AI and n8n</h1>
+<p>I built an AI Automated Bookkeeping System using n8n, OpenAI, Telegram, and Google Drive/Sheets to automatically sort invoices, extracting details, and updating spreadsheets.</p>
+<section id="features" class="level3">
+<h3 class="anchored" data-anchor-id="features">Features:</h3>
+<ol type="1">
+<li><strong>Telegram Upload:</strong> send an invoice (PDF or image) to a Telegram bot I created<br>
 <br>
-As technology continues to revolunise how we interact with money, I’m deeply fascinated by the intersection of finance and technology and together with AI, it is redefining accessibility, innovation, and trust within the financial ecosystem. From algorithmic trading to decentralized finance, I believe the next generation of finance will work hand-in-hand with AI, data, and automation using intelligent systems that learn and predict, creating a world where financial decisions are faster and smarter to all.<br>
+</li>
+<li><strong>File Detection &amp; Extraction:</strong> n8n detects the file type, extracts text using built-in PDF/image processing<br>
 <br>
-Currently, I’m pursuing a <strong>Bachelor’s Degree (Hons) in Applied Computing at SIT</strong>, after graduating with a Diploma in Computer Engineering from Singapore Polytechnic (Specialized in Software and Hardware). My academic journey has built a strong foundation in problem-solving, systems thinking, and innovation, allowing me to explore how technology can reshape financial infrastructures.<br>
+</li>
+<li><strong>AI Processing (OpenAI GPT-4o):</strong> the extracted text is passed to OpenAI, which parses key accounting data like invoice number, vendor name, invoice date &amp; due date, description of services, subtotal, tax, total, and payment status<br>
 <br>
-I’m proficient in various programming languages such as Python, JavaScript, CSS, C, and Java, which supports development across both front-end and back-end. Additionally, I am well-versed in digital marketing strategies, including SEO, social media marketing, and content marketing, to drive brand awareness and customer acquisition.<br>
+</li>
+<li><strong>Data Parsing &amp; Formatting:</strong> A JavaScript node cleans and structures the AI output into JSON format<br>
 <br>
-I am a firm believer in continuous self-growth. I’m passionate about investing and in my free time, I actively upskill with Udemy, where I’m currently enrolled into a 56-hour course on AI Automations with n8n as well as Financial Analyst Training &amp; Investing program. These courses have expanded my understanding of applied AI automation and financial intelligence.<br>
+</li>
+<li><strong>Cloud Storage &amp; Record Keeping:</strong> The invoice is automatically uploaded to Google Drive, shared publicly, and its link is saved<br>
 <br>
-When I’m free, I love to dive into books (fiction and non-fiction), 2 books that have profoundly shaped how I think and live are The Psychology of Money by Morgan Housel, which changed how I view wealth, behavior, and long-term decision-making, and Man’s Search for Meaning by Viktor Frankl, which taught me resilience, purpose, and perspective.</p>
+</li>
+<li><strong>Google Sheets Update:</strong> the extracted information and the invoice file link are appended to a live Google Sheet database automatically</li>
+</ol>
+</section>
+<section id="what-it-solves" class="level3">
+<h3 class="anchored" data-anchor-id="what-it-solves">What It Solves:</h3>
+<ol type="1">
+<li>Eliminates manual data entry</li>
+<li>Saves hours of repetitive bookkeeping</li>
+<li>Centralizes invoice records with attached files</li>
+<li>Reduces human error in financial data logging</li>
+<li>Enables real-time expense tracking</li>
+</ol>
+</section>
+<section id="media" class="level3">
+<h3 class="anchored" data-anchor-id="media">Media</h3>
+<p><img src="images/n8nworkflow.jpeg" class="img-fluid" alt="workflow"> This is a workflow of the n8n automation.<br>
+<br>
+<img src="images/n8ngooglesheets.jpeg" class="img-fluid" alt="googlesheets"> This is a screenshot of the Google Sheets database that is automatically updated.<br>
+<br>
+<img src="images/n8nsampleinvoice.jpeg" class="img-fluid" alt="invoice"> This is an example of an invoice that was sent to the Telegram bot and processed by the automation</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
