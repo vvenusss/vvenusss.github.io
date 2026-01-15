@@ -9,11 +9,11 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
         text: About
-      - datavisualization.qmd
+      - href: datavisualization.qmd
         text: Data Visualization
-      - reflection.qmd
+      - href: reflection.qmd
         text: Reflections
 
 format:
