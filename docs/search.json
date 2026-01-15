@@ -4,6 +4,83 @@
     "href": "index.html",
     "title": "temp_website",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Venus Introduction\n\n\n\n“The future of finance isn’t just built in banks but through through innovation.”\n\nAs technology continues to revolunise how we interact with money, I’m deeply fascinated by the intersection of finance and technology and together with AI, it is redefining accessibility, innovation, and trust within the financial ecosystem. From algorithmic trading to decentralized finance, I believe the next generation of finance will work hand-in-hand with AI, data, and automation using intelligent systems that learn and predict, creating a world where financial decisions are faster and smarter to all.\n\nCurrently, I’m pursuing a Bachelor’s Degree (Hons) in Applied Computing at SIT, after graduating with a Diploma in Computer Engineering from Singapore Polytechnic (Specialized in Software and Hardware). My academic journey has built a strong foundation in problem-solving, systems thinking, and innovation, allowing me to explore how technology can reshape financial infrastructures.\n\nI’m proficient in various programming languages such as Python, JavaScript, CSS, C, and Java, which supports development across both front-end and back-end. Additionally, I am well-versed in digital marketing strategies, including SEO, social media marketing, and content marketing, to drive brand awareness and customer acquisition.\n\nI am a firm believer in continuous self-growth. I’m passionate about investing and in my free time, I actively upskill with Udemy, where I’m currently enrolled into a 56-hour course on AI Automations with n8n as well as Financial Analyst Training & Investing program. These courses have expanded my understanding of applied AI automation and financial intelligence.\n\nWhen I’m free, I love to dive into books (fiction and non-fiction), 2 books that have profoundly shaped how I think and live are The Psychology of Money by Morgan Housel, which changed how I view wealth, behavior, and long-term decision-making, and Man’s Search for Meaning by Viktor Frankl, which taught me resilience, purpose, and perspective."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Automating Bookkeeping with AI and n8n\nI built an AI Automated Bookkeeping System using n8n, OpenAI, Telegram, and Google Drive/Sheets to automatically sort invoices, extracting details, and updating spreadsheets.\n\nFeatures:\n\nTelegram Upload: send an invoice (PDF or image) to a Telegram bot I created\n\n\nFile Detection & Extraction: n8n detects the file type, extracts text using built-in PDF/image processing\n\n\nAI Processing (OpenAI GPT-4o): the extracted text is passed to OpenAI, which parses key accounting data like invoice number, vendor name, invoice date & due date, description of services, subtotal, tax, total, and payment status\n\n\nData Parsing & Formatting: A JavaScript node cleans and structures the AI output into JSON format\n\n\nCloud Storage & Record Keeping: The invoice is automatically uploaded to Google Drive, shared publicly, and its link is saved\n\n\nGoogle Sheets Update: the extracted information and the invoice file link are appended to a live Google Sheet database automatically\n\n\n\nWhat It Solves:\n\nEliminates manual data entry\nSaves hours of repetitive bookkeeping\nCentralizes invoice records with attached files\nReduces human error in financial data logging\nEnables real-time expense tracking\n\n\n\nMedia\n This is a workflow of the n8n automation.\n\n This is a screenshot of the Google Sheets database that is automatically updated.\n\n This is an example of an invoice that was sent to the Telegram bot and processed by the automation"
+  },
+  {
+    "objectID": "datavisualisation.html",
+    "href": "datavisualisation.html",
+    "title": "Data Visualisation",
+    "section": "",
+    "text": "During my trimester 1 in SIT, I had a project where I had to gather data on how student access their current learning materials to understand their preferences and improve the efficiency of educational content.\n\n\n\n105 students currently studying in SIT\n\n\n\n\n\n\nCategory\nAmount ($)\n\n\n\n\nIN4SIT\n100\n\n\nXSite\n3\n\n\nOutlook\n1\n\n\nOthers\n3\n\n\n\n\n\n\n\n\n\n\n\nCategory\nAmount ($)\n\n\n\n\nIN4SIT\n0\n\n\nXSite\n71\n\n\nZoom\n18\n\n\nMSTeams\n11\n\n\nOutlook\n2"
+  },
+  {
+    "objectID": "datavisualisation.html#total-number-of-data-collected",
+    "href": "datavisualisation.html#total-number-of-data-collected",
+    "title": "Data Visualisation",
+    "section": "",
+    "text": "105 students currently studying in SIT"
+  },
+  {
+    "objectID": "datavisualisation.html#accessing-class-schedule",
+    "href": "datavisualisation.html#accessing-class-schedule",
+    "title": "Data Visualisation",
+    "section": "",
+    "text": "Category\nAmount ($)\n\n\n\n\nIN4SIT\n100\n\n\nXSite\n3\n\n\nOutlook\n1\n\n\nOthers\n3"
+  },
+  {
+    "objectID": "datavisualisation.html#accessing-online-lectures",
+    "href": "datavisualisation.html#accessing-online-lectures",
+    "title": "Data Visualisation",
+    "section": "",
+    "text": "Category\nAmount ($)\n\n\n\n\nIN4SIT\n0\n\n\nXSite\n71\n\n\nZoom\n18\n\n\nMSTeams\n11\n\n\nOutlook\n2"
+  },
+  {
+    "objectID": "datavisualisation.html#bar-chart",
+    "href": "datavisualisation.html#bar-chart",
+    "title": "data-visualisation.qmd",
+    "section": "",
+    "text": "library(ggplot2)\nschedule &lt;- data.frame( Category = c(“IN4SIT”, “XSite”, “Outlook”), Amount = c(100, 3, 1) )\nggplot(schedule, aes(x = Category, y = Amount, fill = Category)) + geom_bar(stat = “identity”) + geom_text(aes(label = Amount), vjust = -0.5) + labs(title = “How Students Access Their Class Schedule”, x = “Platform”, y = “Number of Students”) + theme_minimal() + theme(legend.position = “none”)"
+  },
+  {
+    "objectID": "reflection.html",
+    "href": "reflection.html",
+    "title": "Reflection on the use of GenAI",
+    "section": "",
+    "text": "## What is the GenAI tool I have used? Why did I choose it?\nThe GenAI tool I have used is ChatGPT, developed by OpenAI. I chose it because of my familiarity with the software and AI. I have a decent understanding in how helpful the tool is and what is lacking of."
+  },
+  {
+    "objectID": "reflection.html#what-is-the-genai-tool-i-have-used-why-did-i-choose-it",
+    "href": "reflection.html#what-is-the-genai-tool-i-have-used-why-did-i-choose-it",
+    "title": "Reflection on the use of GenAI",
+    "section": "What is the GenAI tool I have used? Why did I choose it?",
+    "text": "What is the GenAI tool I have used? Why did I choose it?\nThe GenAI tool I have used is ChatGPT, developed by OpenAI. I chose it because of my familiarity with the software and AI. I have a decent understanding in how helpful the tool is and what is lacking of."
+  },
+  {
+    "objectID": "reflection.html#how-did-the-genai-tool-help-me-in-completing-the-assessment",
+    "href": "reflection.html#how-did-the-genai-tool-help-me-in-completing-the-assessment",
+    "title": "Reflection on the use of GenAI",
+    "section": "How did the GenAI tool help me in completing the assessment?",
+    "text": "How did the GenAI tool help me in completing the assessment?\nI had issues with the Github commit and push as I was not familiar with the interface here and did not connect my github to the terminal properly. I used ChatGPT to help me with the commands needed to connect my github to the terminal and push my code successfully."
+  },
+  {
+    "objectID": "reflection.html#what-do-i-think-are-challenging-about-the-tool",
+    "href": "reflection.html#what-do-i-think-are-challenging-about-the-tool",
+    "title": "Reflection on the use of GenAI",
+    "section": "What do I think are challenging about the tool?",
+    "text": "What do I think are challenging about the tool?\nIn terms of the overall usability, ChatGPT is by far the most unreliable when it comes to calculating long mathematical equations as compared to coding.\nHowever, in terms of this module, I believe that the challenge is showing the errors and issues with the interface, as I am still learning about the RStudio interface, without the ChatGPT pro (I am not able to send as many pictures as I would like)"
+  },
+  {
+    "objectID": "reflection.html#how-do-i-think-genai-tool-assis-me-for-my-future-study-or-work",
+    "href": "reflection.html#how-do-i-think-genai-tool-assis-me-for-my-future-study-or-work",
+    "title": "Reflection on the use of GenAI",
+    "section": "How do I think GenAI tool assis me for my future study or work?",
+    "text": "How do I think GenAI tool assis me for my future study or work?\nI believe that GenAI tools will help in the efficiency in work and studies instead of taking over my job as a student or worker. Ultimately, I still have to put in effort in understanding my tasks, what I am stuck with, and fact check the information provided by ChatGPT.\n\nAs the world evolves, I believe we have to evolve as well and adapt to the new technology. Learning how to use GenAI tools effectively will be a great skill to have in the future.\n\nI have linked an article on the GenAI impact on humans here, where the article by Deloitte. states that “Despite all the hype, it’s not meant to replace humans, but to better unlock human potential”, which I agree with."
   }
 ]
