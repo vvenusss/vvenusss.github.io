@@ -2,10 +2,20 @@
 title: "temp_website"
 ---
 
-This is a Quarto website.
+# Venus Introduction
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+::: {style="float:left; position: relative; top: 0px"}
+![](images/pic.jpeg){height="100px" style="margin-right: 10px; align: left"}
+:::
+**"The future of finance isn’t just built in banks but through through innovation."**
+\
+\
+As technology continues to revolunise how we interact with money, I’m deeply fascinated by the intersection of finance and technology and together with AI, it is redefining accessibility, innovation, and trust within the financial ecosystem. From algorithmic trading to decentralized finance, I believe the next generation of finance will work hand-in-hand with AI, data, and automation using intelligent systems that learn and predict, creating a world where financial decisions are faster and smarter to all.\
+\
+Currently, I'm pursuing a **Bachelor's Degree (Hons) in Applied Computing at SIT**, after graduating with a Diploma in Computer Engineering from Singapore Polytechnic (Specialized in Software and Hardware). My academic journey has built a strong foundation in problem-solving, systems thinking, and innovation, allowing me to explore how technology can reshape financial infrastructures.\
+\
+I'm proficient in various programming languages such as Python, JavaScript, CSS, C, and Java, which supports development across both front-end and back-end. Additionally, I am well-versed in digital marketing strategies, including SEO, social media marketing, and content marketing, to drive brand awareness and customer acquisition.\
+\
+I am a firm believer in continuous self-growth. I'm passionate about investing and in my free time, I actively upskill with Udemy, where I'm currently enrolled into a 56-hour course on AI Automations with n8n as well as Financial Analyst Training & Investing program. These courses have expanded my understanding of applied AI automation and financial intelligence.\
+\
+When I'm free, I love to dive into books (fiction and non-fiction), 2 books that have profoundly shaped how I think and live are The Psychology of Money by Morgan Housel, which changed how I view wealth, behavior, and long-term decision-making, and Man's Search for Meaning by Viktor Frankl, which taught me resilience, purpose, and perspective. 
