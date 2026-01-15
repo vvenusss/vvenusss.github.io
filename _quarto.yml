@@ -3,7 +3,6 @@ project:
   output-dir: docs
 
 website:
-  title: "temp_website"
   favicon: favicon.png
   navbar:
     logo: logo.png
@@ -11,6 +10,11 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+        text: About
+      - href: data_visualization.qmd
+        text: Data Visualization
+      - href: reflections.qmd
+        text: Reflections
 
 format:
   html:
