@@ -11,9 +11,9 @@ website:
         text: Home
       - about.qmd
         text: About
-      - href: data_visualization.qmd
+      - datavisualization.qmd
         text: Data Visualization
-      - href: reflections.qmd
+      - reflection.qmd
         text: Reflections
 
 format:
